@@ -2,9 +2,7 @@
 
 Adult
 
-CDC Diabetes Health Indicators
-
-Statlog (German Credit Data)
+Heart Disease
 
 Students
 
