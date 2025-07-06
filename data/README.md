@@ -16,11 +16,11 @@ Also known as the 'Census Income' data set. The goal is to predict whether an in
 
 ### Sources
 
-Becker, B. and Kohavi, R. (1996). Adult. UCI Machine Learning Repository. https://doi.org/10.24432/C5XW20.
+Becker, B. & Kohavi, R. (1996). Adult [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5XW20
 
 ### License
 
-This data set is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+This data set is licensed under a [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode) (CC BY 4.0) license.
 
 ### Files
 
@@ -34,11 +34,11 @@ This dataset includes student achievement in two Portuguese schools. It contains
 
 ### Sources
 
-Cortez, P. (2008). Student Performance. UCI Machine Learning Repository. https://doi.org/10.24432/C5TG7T.
+M.V. Martins, D. Tolledo, J. Machado, L. M.T. Baptista, V. Realinho. (2021) "Early prediction of student’s performance in higher education: a case study" Trends and Applications in Information Systems and Technologies, vol.1, in Advances in Intelligent Systems and Computing series. Springer. DOI: 10.1007/978-3-030-72657-7_16
 
 ### License
 
-This data set is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+This data set is licensed under a [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode) (CC BY 4.0) license.
 
 ### Files
 
@@ -52,17 +52,15 @@ This dataset contains information on individuals applying for credit in Germany.
 
 ### Sources
 
-Hofmann, H. (1994). Statlog (German Credit Data). UCI Machine Learning Repository. https://doi.org/10.24432/C5NC77.
+Hofmann, H. (1994). Statlog (German Credit Data) [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5NC77.
 
 ### License
 
-This data set is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+This data set is licensed under a [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode) (CC BY 4.0) license.
 
 ### Files
 
-[link](data/)
-
-[link](data/)
+[german_credit_data.csv](data/german_credit_data.csv)
 
 ## CDC Diabetes Health Indicators
 
@@ -74,11 +72,15 @@ Teboul, A. (2023). CDC Diabetes Health Indicators. UCI Machine Learning Reposito
 
 ### License
 
-This data set is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+This data set is licensed under a [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode) (CC BY 4.0) license.
 
 ### Files
 
-[link](data/)
+[diabetes_binary_full.csv](data/diabetes_binary_full.csv)
+
+[diabetes_multiclass_full.csv](data/diabetes_multiclass_full.csv)
+
+[diabetes_binary_balanced.csv](data/diabetes_binary_balanced.csv)
 
 ## Heart Disease
 
@@ -86,11 +88,11 @@ This dataset originates from the Cleveland Clinic Foundation and is commonly use
 
 ### Sources
 
-Janosi, A., Steinbrunn, W., Pfisterer, M., & Detrano, R. (1989). Heart Disease. UCI Machine Learning Repository. https://doi.org/10.24432/C52P4X.
+Janosi, A., Steinbrunn, W., Pfisterer, M., & Detrano, R. (1989). Heart Disease [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C52P4X.
 
 ### License
 
-This data set is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+This data set is licensed under a [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode) (CC BY 4.0) license.
 
 ### Files
 
