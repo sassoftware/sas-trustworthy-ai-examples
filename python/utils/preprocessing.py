@@ -13,7 +13,7 @@ def load_data(file_path):
 def handle_missing_values(df, strategy='remove', columns=None):
     """
     Handle missing values using specified strategy.
-    Strategies: 'remove' (drop rows), 'mean', or 'median'.
+    Strategies: 'remove' (drop rows), 'mean', or 'median'
     """
     if columns is None:
         columns = df.columns
@@ -143,6 +143,9 @@ def split_data(df, target_col, test_size=0.2, random_state=42):
 
 def correlation_matrix(df, method='pearson', threshold=0.7, plot=True):
     """
+    Computes feature correlation matrix and identifies highly correlated feature pairs.
+    Calculates pairwise correlations using the specified method.
+    Methods: 'pearson', 'spearman', or 'kendall'
     """
     corr_matrix = df.corr(method=method)
 
@@ -171,8 +174,10 @@ def correlation_matrix(df, method='pearson', threshold=0.7, plot=True):
 
     return corr_matrix, high_corr_pairs
 
-def identify_proxy_variables(df, sensitive_attrs, threshold=0.8):
+def identify_proxy_variables(df, sensitive_attrs, method='absolute', threshold=0.8, top_k=3):
     """
+    Identifies proxy variables for sensitive attributes using rank correlation.
+    Methods: 'absolute' or 'relative'
     """
     proxy_dict = {}
 
@@ -181,17 +186,21 @@ def identify_proxy_variables(df, sensitive_attrs, threshold=0.8):
             continue
         
         correlations = df.corrwith(df[attr], method='spearman').abs()
-        proxies = correlations[(correlations > threshold) & (correlations.index != attr)]
-        sorted_proxies = proxies.sort_values(ascending=False)
-        proxy_dict[attr] = sorted_proxies.index.tolist()
+        correlations = correlations.drop(sensitive_attrs, errors='ignore')
+
+        if method == 'absolute':
+            selected = correlations[correlations > threshold]
+        elif method == 'relative':
+            selected = correlations.sort_values(ascending=False).head(top_k)
+
+        proxy_dict[attr] = selected.index.tolist()
 
     return proxy_dict
 
 
 
 def frequency_distribution(df, sensitive_attrs, plot=True, normalize=False):
-    """
-    """
+    """Analyzes distribution of sensitive attributes."""
     dist_dict = {}
 
     for attr in sensitive_attrs:
