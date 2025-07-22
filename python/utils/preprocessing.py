@@ -50,14 +50,19 @@ def detect_column_types(df):
     
     return col_types
 
-def encode_categorical_data(df, columns=None, method='onehot'):
+def encode_categorical_data(df, columns=None, method='onehot', exclude_cols=None):
     """
     Encode categorical columns.
     Methods: 'onehot' or 'ordinal'
     """
+    exclude_cols = set(exclude_cols or [])
     if columns is None:
         col_types = detect_column_types(df)
-        columns = [col for col, dtype in col_types.items() if dtype == 'categorical']
+        columns = [
+            col
+            for col, dtype in col_types.items()
+            if dtype == 'categorical' and col not in exclude_cols
+        ]
     
     if method == 'onehot':
         encoder = OneHotEncoder(sparse_output=False, handle_unknown='ignore')
@@ -67,21 +72,25 @@ def encode_categorical_data(df, columns=None, method='onehot'):
             columns=encoder.get_feature_names_out(columns),
             index=df.index
         )
-
-        return pd.concat([df.drop(columns, axis=1), encoded_df], axis=1)
+        return pd.concat(
+            [df.drop(columns, axis=1), encoded_df],
+            axis=1
+        )
     
     else:
-        encoder = OrdinalEncoder(categories='auto', handle_unknown='use_encoded_value', unknown_value=-1)
+        encoder = OrdinalEncoder(
+            categories='auto',
+            handle_unknown='use_encoded_value',
+            unknown_value=-1
+        )
         encoded_data = encoder.fit_transform(df[columns])
         encoded_df = pd.DataFrame(
             encoded_data,
             columns=columns,
             index=df.index
         )
-
         processed_df = df.copy()
         processed_df[columns] = encoded_df
-
         return processed_df
 
 

@@ -14,7 +14,40 @@ Clone the examples repository into the root of your workspace:
 
 ```bash
 git clone https://github.com/sassoftware/sas-trustworthy-ai-examples.git
+cd sas-trustworthy-ai-examples
 ```
+
+### Python Environment Setup
+
+1. **Create a Virtual Environment**
+
+```bash
+python -m venv venv
+```
+
+2. **Activate the Virtual Environment**
+
+On macOS/Linux:
+
+```bash
+source venv/bin/activate
+```
+
+On Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+3. **Install Required Python Packages**
+
+```bash
+pip install -r requirements.txt
+```
+
+4. **Run Examples**
+
+Navigate to the `python/` directory and open a notebook or script.
 
 ## Examples
 
@@ -26,31 +59,15 @@ The repository is organized into the following folders:
 
 - `sas/` — Contains equivalent SAS code examples
 
-## Trustworthy AI Features Covered
+## Trustworthy AI Examples Covered
 
-### Fairness Accessment
+### Healthcare
 
-- Assess bias using tools like Fairlearn and SAS Fair AI Toolset
+### Finance
 
-- Calculate equal accuracy, equal opportunity, equalized odds, demographic parity, predictive parity
+### Education
 
-### Bias Mitigation
-
-- Explore bias mitigation (pre-, in-, and post-processing techniques)
-
-### Explainability & Interpretability
-
-- Use SHAP, LIME, ICE, and SAS Explain Model action set
-
-- Generate global and local explanations for predictions
-
-### Robustness & Adversarial Testing
-
-- Evaluate models under corrupted data (e.g., Gaussian noise, blur)
-
-- Apply OOD and anomaly detection techniques
-
-- Compare model resilience across clean vs corrupted inputs
+### Public/Government
 
 ## Datasets
 
