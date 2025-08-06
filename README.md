@@ -88,6 +88,7 @@ This project is licensed under the Apache 2.0 License. See [LICENSE](LICENSE) fo
 
 ## Additional Resources
 
-- [Fairlearn](https://fairlearn.org/)
-- [SAS® Viya® Workbench GitHub](https://github.com/sassoftware/sas-viya-workbench-examples)
-- [Trustworthy AI Blog Series](https://blogs.sas.com/content/tag/trustworthy-ai-toolkit/)
+- [Fairlearn](https://fairlearn.org/) - [SAS® Trustworthy AI Life
+  Cycle](https://github.com/sassoftware/sas-trustworthy-ai-life-cycle) - [Trustworthy AI Blog
+  Series](https://blogs.sas.com/content/tag/trustworthy-ai-toolkit/) - [SAS® Viya® Workbench
+  Examples](https://github.com/sassoftware/sas-viya-workbench-examples)
