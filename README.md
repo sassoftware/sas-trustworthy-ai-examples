@@ -53,10 +53,8 @@ Navigate to the `python/` directory and open a notebook or script.
 
 The repository is organized into the following folders:
 
-- `data/` — Contains datasets for all 4 sectors
-
-- `python/` — Contains Python-based Trustworthy AI example notebooks
-
+- `data/` — Contains datasets for all 4 
+- `python/` — Contains Python-based Trustworthy AI example 
 - `sas/` — Contains equivalent SAS code examples
 
 ## Trustworthy AI Examples Covered
@@ -74,28 +72,22 @@ The repository is organized into the following folders:
 Example datasets include:
 
 - Adult Dataset
-
 - Student Performance Dataset
-
 - German Credit Data
-
 - CDC Diabetes Health Indicators
 
-[View Datasets Here](data/README.md)
+[View all datasets](data/README.md)
 
 ## Contributing
 
-Contributions are not currently accepted.
+Maintainers are not currently accepting contributions to this project.
 
 ## License
 
-This project is licensed under the Apache 2.0 License.
-
+This project is licensed under the Apache 2.0 License. See [LICENSE] for details.
 
 ## Additional Resources
 
 - [Fairlearn](https://fairlearn.org/)
-
 - [SAS® Viya® Workbench GitHub](https://github.com/sassoftware/sas-viya-workbench-examples)
-
 - [Trustworthy AI Blog Series](https://blogs.sas.com/content/tag/trustworthy-ai-toolkit/)
