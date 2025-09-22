@@ -24,7 +24,7 @@ This data set is licensed under a [Creative Commons Attribution 4.0 Internationa
 
 ### Files
 
-[adult_train.csv](/adult_train.csv)
+[adult_train.csv](../data/adult_train.csv)
 
 [adult_test.csv](/adult_test.csv)
 
