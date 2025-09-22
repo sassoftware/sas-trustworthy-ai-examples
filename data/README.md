@@ -24,9 +24,9 @@ This data set is licensed under a [Creative Commons Attribution 4.0 Internationa
 
 ### Files
 
-[adult_train.csv](data/adult_train.csv)
+[adult_train.csv](/adult_train.csv)
 
-[adult_test.csv](data/adult_test.csv)
+[adult_test.csv](/adult_test.csv)
 
 ## Student Performance Dataset
 
@@ -42,9 +42,9 @@ This data set is licensed under a [Creative Commons Attribution 4.0 Internationa
 
 ### Files
 
-[students_train.csv](data/students_train.csv)
+[students_train.csv](/students_train.csv)
 
-[students_test.csv](data/students_test.csv)
+[students_test.csv](/students_test.csv)
 
 ## German Credit Data
 
@@ -60,9 +60,9 @@ This data set is licensed under a [Creative Commons Attribution 4.0 Internationa
 
 ### Files
 
-[german_credit_data.csv](data/german_credit_data.csv)
+[german_credit_data.csv](/german_credit_data.csv)
 
-[german_credit_data_with_label.csv](data/german_credit_data_with_label.csv)
+[german_credit_data_with_label.csv](/german_credit_data_with_label.csv)
 
 ## CDC Diabetes Health Indicators
 
@@ -78,11 +78,11 @@ This data set is licensed under a [Creative Commons Attribution 4.0 Internationa
 
 ### Files
 
-[diabetes_binary_full.csv](data/diabetes_binary_full.csv)
+[diabetes_binary_full.csv](/diabetes_binary_full.csv)
 
-[diabetes_multiclass_full.csv](data/diabetes_multiclass_full.csv)
+[diabetes_multiclass_full.csv](/diabetes_multiclass_full.csv)
 
-[diabetes_binary_balanced.csv](data/diabetes_binary_balanced.csv)
+[diabetes_binary_balanced.csv](/diabetes_binary_balanced.csv)
 
 ## Heart Disease
 
@@ -98,4 +98,4 @@ This data set is licensed under a [Creative Commons Attribution 4.0 Internationa
 
 ### Files
 
-[heart_disease.csv](data/heart_disease.csv)
+[heart_disease.csv](/heart_disease.csv)
