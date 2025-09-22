@@ -61,20 +61,51 @@ The repository is organized into the following folders:
 
 ### Healthcare
 
+- Enhancing Diabetes Risk Predictions with Adaptive Imputation and Monte Carlo Dropout
+
+- Explaining Diabetes Risk Predictions with SHAP and XGBoost
+
+- Improving Heart Disease Risk Predictions with Domain-Adversarial Neural Networks and Ensemble Optimization
+
+- Interpreting Heart Disease Diagnosis with LIME and SVM
+
+- Mitigating Income Bias in Access to Diabetes Screening
+
+- Mitigating Sex Bias in Heart Disease Diagnosis
+
 ### Finance
+
+- Mitigating Age Bias in Credit Scoring
+
+- Strengthening Loan Amount Estimation with Adversarial Training and Conformal Prediction
+
+- Visualizing Loan Amount Predictions via PDP and ICE
 
 ### Education
 
+- Adapting Student Performance Predictions with Drift Detection and Adaptive BatchNorm
+
+- Distilling Student Dropout Rules with Surrogate Tree
+
+- Mitigating International Status Bias in Scholarship Allocation
+
 ### Public/Government
+
+- Mitigating Racial Bias in Employment Service Allocation
+
+- Safeguarding Income Classification with Noise Correction
+
+- Uncovering Income Prediction Logic with RuleFit
 
 ## Datasets
 
 Example datasets include:
 
 - Adult Dataset
-- Student Performance Dataset
-- German Credit Data
 - CDC Diabetes Health Indicators
+- German Credit Data
+- Heart Disease Dataset
+- Student Performance Dataset
 
 [View all datasets](data/README.md)
 

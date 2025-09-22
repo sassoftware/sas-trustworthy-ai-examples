@@ -62,6 +62,8 @@ This data set is licensed under a [Creative Commons Attribution 4.0 Internationa
 
 [german_credit_data.csv](data/german_credit_data.csv)
 
+[german_credit_data_with_label.csv](data/german_credit_data_with_label.csv)
+
 ## CDC Diabetes Health Indicators
 
 This dataset contains health-related data from the CDC’s Behavioral Risk Factor Surveillance System (BRFSS). It includes responses from U.S. adults about health behaviors, chronic conditions, and preventive service use. The primary use case is predicting the presence or risk of diabetes, with applications in fairness, public health analysis, and risk stratification.
